@@ -1,0 +1,23 @@
+.open-info__list {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.open-info__list {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.open-info {
+		grid-area: open-info;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.open-info__list {
+		flex-direction: column-reverse;
+	}
+}

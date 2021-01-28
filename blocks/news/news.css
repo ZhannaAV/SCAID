@@ -1,0 +1,29 @@
+.news {
+	grid-area: news;
+}
+
+.news__title{
+	margin-top: 69px;
+	margin-left: 76px;
+}
+
+@media screen and (max-width: 768px) {
+	.news__title {
+		margin-top: 41px;
+		margin-left: 148px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.news__title {
+		margin-top: 76px;
+		margin-left: 78px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.news__title {
+		margin-top: 69px;
+		margin-left: 67px;
+	}
+}

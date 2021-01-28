@@ -1,0 +1,14 @@
+.unknown-block{
+	grid-area: block3;
+}
+
+.unknown-block__title{
+	margin-top: 75px;
+	margin-left: 64px;
+}
+
+@media screen and (max-width: 768px){
+	.unknown-block{
+		display: none;
+	}
+}
